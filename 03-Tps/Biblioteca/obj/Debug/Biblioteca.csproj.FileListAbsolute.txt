@@ -1,0 +1,5 @@
+C:\Users\Aguss\Desktop\Laboratorio_II\01-Tps\Biblioteca\bin\Debug\Biblioteca.dll
+C:\Users\Aguss\Desktop\Laboratorio_II\01-Tps\Biblioteca\bin\Debug\Biblioteca.pdb
+C:\Users\Aguss\Desktop\Laboratorio_II\01-Tps\Biblioteca\obj\Debug\Biblioteca.csprojAssemblyReference.cache
+C:\Users\Aguss\Desktop\Laboratorio_II\01-Tps\Biblioteca\obj\Debug\Biblioteca.dll
+C:\Users\Aguss\Desktop\Laboratorio_II\01-Tps\Biblioteca\obj\Debug\Biblioteca.pdb
