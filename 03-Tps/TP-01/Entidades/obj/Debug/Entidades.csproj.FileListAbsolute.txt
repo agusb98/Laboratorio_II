@@ -1,0 +1,5 @@
+C:\Users\Aguss\Desktop\Laboratorio_II\03-Tps\TP-01\Entidades\bin\Debug\Entidades.dll
+C:\Users\Aguss\Desktop\Laboratorio_II\03-Tps\TP-01\Entidades\bin\Debug\Entidades.pdb
+C:\Users\Aguss\Desktop\Laboratorio_II\03-Tps\TP-01\Entidades\obj\Debug\Entidades.csprojAssemblyReference.cache
+C:\Users\Aguss\Desktop\Laboratorio_II\03-Tps\TP-01\Entidades\obj\Debug\Entidades.dll
+C:\Users\Aguss\Desktop\Laboratorio_II\03-Tps\TP-01\Entidades\obj\Debug\Entidades.pdb

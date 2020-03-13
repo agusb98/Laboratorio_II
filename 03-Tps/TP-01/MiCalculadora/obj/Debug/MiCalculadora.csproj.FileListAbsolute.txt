@@ -1,0 +1,12 @@
+C:\Users\Aguss\Desktop\Laboratorio_II\03-Tps\TP-01\MiCalculadora\bin\Debug\MiCalculadora.exe.config
+C:\Users\Aguss\Desktop\Laboratorio_II\03-Tps\TP-01\MiCalculadora\bin\Debug\MiCalculadora.exe
+C:\Users\Aguss\Desktop\Laboratorio_II\03-Tps\TP-01\MiCalculadora\bin\Debug\MiCalculadora.pdb
+C:\Users\Aguss\Desktop\Laboratorio_II\03-Tps\TP-01\MiCalculadora\obj\Debug\MiCalculadora.csprojAssemblyReference.cache
+C:\Users\Aguss\Desktop\Laboratorio_II\03-Tps\TP-01\MiCalculadora\obj\Debug\MiCalculadora.Properties.Resources.resources
+C:\Users\Aguss\Desktop\Laboratorio_II\03-Tps\TP-01\MiCalculadora\obj\Debug\MiCalculadora.csproj.GenerateResource.cache
+C:\Users\Aguss\Desktop\Laboratorio_II\03-Tps\TP-01\MiCalculadora\obj\Debug\MiCalculadora.exe
+C:\Users\Aguss\Desktop\Laboratorio_II\03-Tps\TP-01\MiCalculadora\obj\Debug\MiCalculadora.pdb
+C:\Users\Aguss\Desktop\Laboratorio_II\03-Tps\TP-01\MiCalculadora\obj\Debug\MiCalculadora.LaCalculadora.resources
+C:\Users\Aguss\Desktop\Laboratorio_II\03-Tps\TP-01\MiCalculadora\obj\Debug\MiCalculadora.csproj.CopyComplete
+C:\Users\Aguss\Desktop\Laboratorio_II\03-Tps\TP-01\MiCalculadora\bin\Debug\Entidades.dll
+C:\Users\Aguss\Desktop\Laboratorio_II\03-Tps\TP-01\MiCalculadora\bin\Debug\Entidades.pdb
