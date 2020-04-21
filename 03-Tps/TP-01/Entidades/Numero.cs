@@ -182,14 +182,11 @@ namespace Entidades
         }
         public static double operator /(Numero n1, Numero n2)
         {
-            if (n2.numero != 0)
-            {
-                return n1.numero / n2.numero;
-            }
-            else
-            {
-                return 0;
-            }
+            if (n2.numero == 0)
+                return Double.MinValue;
+
+            return n1.numero / n2.numero;
+
         }
         public static double operator +(Numero n1, Numero n2)
         {

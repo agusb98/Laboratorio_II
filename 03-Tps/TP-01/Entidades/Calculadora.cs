@@ -12,33 +12,28 @@
         public static double Operar(Numero numero1, Numero numero2, string operador)
         {
             double retorno = 0;
-            string operadorValidado;
 
-            operadorValidado = ValidarOperador(operador);
-
-            switch (operadorValidado)
+            switch (ValidarOperador(operador))
             {
                 case "+":
                     {
-                        retorno = numero1.GetNumero() + numero2.GetNumero();
+                        retorno = numero1 + numero2;
                         break;
                     }
                 case "-":
                     {
-                        retorno = numero1.GetNumero() - numero2.GetNumero();
+                        retorno = numero1 - numero2;
                         break;
                     }
                 case "*":
                     {
-                        retorno = numero1.GetNumero() * numero2.GetNumero();
+                        retorno = numero1 * numero2;
                         break;
                     }
                 case "/":
                     {
-                        if (numero2.GetNumero() == 0)
-                            return 0;
 
-                        retorno = numero1.GetNumero() / numero2.GetNumero();
+                        retorno = numero1 / numero2;
                         break;
                     }
             }
@@ -52,7 +47,7 @@
         /// <returns>Operador validado, en caso de error, retorna el operador "+".</returns>
         private static string ValidarOperador(string operador)
         {
-            if (operador == "+" || operador == "-" || operador == "*" || operador == "/")
+            if (operador == "-" || operador == "*" || operador == "/")
                 return operador;
 
             return "+";
