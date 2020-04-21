@@ -1,0 +1,32 @@
+D:\Alvaro\Programación\04 - Programación 2\TPs\Serein.Álvaro.2ºA.TP3\Programa\bin\Debug\Programa.exe.config
+D:\Alvaro\Programación\04 - Programación 2\TPs\Serein.Álvaro.2ºA.TP3\Programa\bin\Debug\Programa.exe
+D:\Alvaro\Programación\04 - Programación 2\TPs\Serein.Álvaro.2ºA.TP3\Programa\bin\Debug\Programa.pdb
+D:\Alvaro\Programación\04 - Programación 2\TPs\Serein.Álvaro.2ºA.TP3\Programa\bin\Debug\Clases Abstractas.dll
+D:\Alvaro\Programación\04 - Programación 2\TPs\Serein.Álvaro.2ºA.TP3\Programa\bin\Debug\Clases Instanciables.dll
+D:\Alvaro\Programación\04 - Programación 2\TPs\Serein.Álvaro.2ºA.TP3\Programa\bin\Debug\Excepciones.dll
+D:\Alvaro\Programación\04 - Programación 2\TPs\Serein.Álvaro.2ºA.TP3\Programa\bin\Debug\Archivos.dll
+D:\Alvaro\Programación\04 - Programación 2\TPs\Serein.Álvaro.2ºA.TP3\Programa\bin\Debug\Clases Abstractas.pdb
+D:\Alvaro\Programación\04 - Programación 2\TPs\Serein.Álvaro.2ºA.TP3\Programa\bin\Debug\Clases Instanciables.pdb
+D:\Alvaro\Programación\04 - Programación 2\TPs\Serein.Álvaro.2ºA.TP3\Programa\bin\Debug\Excepciones.pdb
+D:\Alvaro\Programación\04 - Programación 2\TPs\Serein.Álvaro.2ºA.TP3\Programa\bin\Debug\Archivos.pdb
+D:\Alvaro\Programación\04 - Programación 2\TPs\Serein.Álvaro.2ºA.TP3\Programa\obj\Debug\Programa.csprojAssemblyReference.cache
+D:\Alvaro\Programación\04 - Programación 2\TPs\Serein.Álvaro.2ºA.TP3\Programa\obj\Debug\Programa.csproj.CoreCompileInputs.cache
+D:\Alvaro\Programación\04 - Programación 2\TPs\Serein.Álvaro.2ºA.TP3\Programa\obj\Debug\Programa.csproj.CopyComplete
+D:\Alvaro\Programación\04 - Programación 2\TPs\Serein.Álvaro.2ºA.TP3\Programa\obj\Debug\Programa.exe
+D:\Alvaro\Programación\04 - Programación 2\TPs\Serein.Álvaro.2ºA.TP3\Programa\obj\Debug\Programa.pdb
+C:\Users\sant_\Desktop\tp_laboratorio_2\RecuperatoriosTP\TP3\Serein.Álvaro.2ºA.TP3\Programa\bin\Debug\Programa.exe.config
+C:\Users\sant_\Desktop\tp_laboratorio_2\RecuperatoriosTP\TP3\Serein.Álvaro.2ºA.TP3\Programa\bin\Debug\Programa.exe
+C:\Users\sant_\Desktop\tp_laboratorio_2\RecuperatoriosTP\TP3\Serein.Álvaro.2ºA.TP3\Programa\bin\Debug\Programa.pdb
+C:\Users\sant_\Desktop\tp_laboratorio_2\RecuperatoriosTP\TP3\Serein.Álvaro.2ºA.TP3\Programa\bin\Debug\Clases Abstractas.dll
+C:\Users\sant_\Desktop\tp_laboratorio_2\RecuperatoriosTP\TP3\Serein.Álvaro.2ºA.TP3\Programa\bin\Debug\Clases Instanciables.dll
+C:\Users\sant_\Desktop\tp_laboratorio_2\RecuperatoriosTP\TP3\Serein.Álvaro.2ºA.TP3\Programa\bin\Debug\Excepciones.dll
+C:\Users\sant_\Desktop\tp_laboratorio_2\RecuperatoriosTP\TP3\Serein.Álvaro.2ºA.TP3\Programa\bin\Debug\Archivos.dll
+C:\Users\sant_\Desktop\tp_laboratorio_2\RecuperatoriosTP\TP3\Serein.Álvaro.2ºA.TP3\Programa\bin\Debug\Clases Abstractas.pdb
+C:\Users\sant_\Desktop\tp_laboratorio_2\RecuperatoriosTP\TP3\Serein.Álvaro.2ºA.TP3\Programa\bin\Debug\Clases Instanciables.pdb
+C:\Users\sant_\Desktop\tp_laboratorio_2\RecuperatoriosTP\TP3\Serein.Álvaro.2ºA.TP3\Programa\bin\Debug\Excepciones.pdb
+C:\Users\sant_\Desktop\tp_laboratorio_2\RecuperatoriosTP\TP3\Serein.Álvaro.2ºA.TP3\Programa\bin\Debug\Archivos.pdb
+C:\Users\sant_\Desktop\tp_laboratorio_2\RecuperatoriosTP\TP3\Serein.Álvaro.2ºA.TP3\Programa\obj\Debug\Programa.csprojAssemblyReference.cache
+C:\Users\sant_\Desktop\tp_laboratorio_2\RecuperatoriosTP\TP3\Serein.Álvaro.2ºA.TP3\Programa\obj\Debug\Programa.csproj.CoreCompileInputs.cache
+C:\Users\sant_\Desktop\tp_laboratorio_2\RecuperatoriosTP\TP3\Serein.Álvaro.2ºA.TP3\Programa\obj\Debug\Programa.csproj.CopyComplete
+C:\Users\sant_\Desktop\tp_laboratorio_2\RecuperatoriosTP\TP3\Serein.Álvaro.2ºA.TP3\Programa\obj\Debug\Programa.exe
+C:\Users\sant_\Desktop\tp_laboratorio_2\RecuperatoriosTP\TP3\Serein.Álvaro.2ºA.TP3\Programa\obj\Debug\Programa.pdb

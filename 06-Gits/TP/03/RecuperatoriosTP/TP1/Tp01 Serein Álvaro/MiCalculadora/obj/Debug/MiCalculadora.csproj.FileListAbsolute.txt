@@ -1,0 +1,51 @@
+D:\Alvaro\Programación\04 - Programación 2\Tp01 Serein Álvaro\MiCalculadora\bin\Debug\MiCalculadora.exe.config
+D:\Alvaro\Programación\04 - Programación 2\Tp01 Serein Álvaro\MiCalculadora\bin\Debug\MiCalculadora.exe
+D:\Alvaro\Programación\04 - Programación 2\Tp01 Serein Álvaro\MiCalculadora\bin\Debug\MiCalculadora.pdb
+D:\Alvaro\Programación\04 - Programación 2\Tp01 Serein Álvaro\MiCalculadora\obj\Debug\MiCalculadora.csprojAssemblyReference.cache
+D:\Alvaro\Programación\04 - Programación 2\Tp01 Serein Álvaro\MiCalculadora\obj\Debug\MiCalculadora.FormCalculadora.resources
+D:\Alvaro\Programación\04 - Programación 2\Tp01 Serein Álvaro\MiCalculadora\obj\Debug\MiCalculadora.Properties.Resources.resources
+D:\Alvaro\Programación\04 - Programación 2\Tp01 Serein Álvaro\MiCalculadora\obj\Debug\MiCalculadora.csproj.GenerateResource.cache
+D:\Alvaro\Programación\04 - Programación 2\Tp01 Serein Álvaro\MiCalculadora\obj\Debug\MiCalculadora.csproj.CoreCompileInputs.cache
+D:\Alvaro\Programación\04 - Programación 2\Tp01 Serein Álvaro\MiCalculadora\obj\Debug\MiCalculadora.exe
+D:\Alvaro\Programación\04 - Programación 2\Tp01 Serein Álvaro\MiCalculadora\obj\Debug\MiCalculadora.pdb
+D:\Alvaro\Programación\04 - Programación 2\Tp01 Serein Álvaro\MiCalculadora\bin\Debug\Entidades.dll
+D:\Alvaro\Programación\04 - Programación 2\Tp01 Serein Álvaro\MiCalculadora\bin\Debug\Entidades.pdb
+D:\Alvaro\Programación\04 - Programación 2\Tp01 Serein Álvaro\MiCalculadora\obj\Debug\MiCalculadora.csproj.CopyComplete
+D:\Alvaro\Programación\04 - Programación 2\TPs\Tp01 Serein Álvaro\MiCalculadora\bin\Debug\MiCalculadora.exe.config
+D:\Alvaro\Programación\04 - Programación 2\TPs\Tp01 Serein Álvaro\MiCalculadora\bin\Debug\MiCalculadora.exe
+D:\Alvaro\Programación\04 - Programación 2\TPs\Tp01 Serein Álvaro\MiCalculadora\bin\Debug\MiCalculadora.pdb
+D:\Alvaro\Programación\04 - Programación 2\TPs\Tp01 Serein Álvaro\MiCalculadora\bin\Debug\Entidades.dll
+D:\Alvaro\Programación\04 - Programación 2\TPs\Tp01 Serein Álvaro\MiCalculadora\bin\Debug\Entidades.pdb
+D:\Alvaro\Programación\04 - Programación 2\TPs\Tp01 Serein Álvaro\MiCalculadora\obj\Debug\MiCalculadora.csprojAssemblyReference.cache
+D:\Alvaro\Programación\04 - Programación 2\TPs\Tp01 Serein Álvaro\MiCalculadora\obj\Debug\MiCalculadora.FormCalculadora.resources
+D:\Alvaro\Programación\04 - Programación 2\TPs\Tp01 Serein Álvaro\MiCalculadora\obj\Debug\MiCalculadora.Properties.Resources.resources
+D:\Alvaro\Programación\04 - Programación 2\TPs\Tp01 Serein Álvaro\MiCalculadora\obj\Debug\MiCalculadora.csproj.GenerateResource.cache
+D:\Alvaro\Programación\04 - Programación 2\TPs\Tp01 Serein Álvaro\MiCalculadora\obj\Debug\MiCalculadora.csproj.CoreCompileInputs.cache
+D:\Alvaro\Programación\04 - Programación 2\TPs\Tp01 Serein Álvaro\MiCalculadora\obj\Debug\MiCalculadora.csproj.CopyComplete
+D:\Alvaro\Programación\04 - Programación 2\TPs\Tp01 Serein Álvaro\MiCalculadora\obj\Debug\MiCalculadora.exe
+D:\Alvaro\Programación\04 - Programación 2\TPs\Tp01 Serein Álvaro\MiCalculadora\obj\Debug\MiCalculadora.pdb
+C:\Users\sant_\Desktop\tp_laboratorio_2\RecuperatoriosTP\TP1\Tp01 Serein Álvaro\MiCalculadora\bin\Debug\MiCalculadora.exe.config
+C:\Users\sant_\Desktop\tp_laboratorio_2\RecuperatoriosTP\TP1\Tp01 Serein Álvaro\MiCalculadora\bin\Debug\MiCalculadora.exe
+C:\Users\sant_\Desktop\tp_laboratorio_2\RecuperatoriosTP\TP1\Tp01 Serein Álvaro\MiCalculadora\bin\Debug\MiCalculadora.pdb
+C:\Users\sant_\Desktop\tp_laboratorio_2\RecuperatoriosTP\TP1\Tp01 Serein Álvaro\MiCalculadora\bin\Debug\Entidades.dll
+C:\Users\sant_\Desktop\tp_laboratorio_2\RecuperatoriosTP\TP1\Tp01 Serein Álvaro\MiCalculadora\bin\Debug\Entidades.pdb
+C:\Users\sant_\Desktop\tp_laboratorio_2\RecuperatoriosTP\TP1\Tp01 Serein Álvaro\MiCalculadora\obj\Debug\MiCalculadora.csprojAssemblyReference.cache
+C:\Users\sant_\Desktop\tp_laboratorio_2\RecuperatoriosTP\TP1\Tp01 Serein Álvaro\MiCalculadora\obj\Debug\MiCalculadora.FormCalculadora.resources
+C:\Users\sant_\Desktop\tp_laboratorio_2\RecuperatoriosTP\TP1\Tp01 Serein Álvaro\MiCalculadora\obj\Debug\MiCalculadora.Properties.Resources.resources
+C:\Users\sant_\Desktop\tp_laboratorio_2\RecuperatoriosTP\TP1\Tp01 Serein Álvaro\MiCalculadora\obj\Debug\MiCalculadora.csproj.GenerateResource.cache
+C:\Users\sant_\Desktop\tp_laboratorio_2\RecuperatoriosTP\TP1\Tp01 Serein Álvaro\MiCalculadora\obj\Debug\MiCalculadora.csproj.CoreCompileInputs.cache
+C:\Users\sant_\Desktop\tp_laboratorio_2\RecuperatoriosTP\TP1\Tp01 Serein Álvaro\MiCalculadora\obj\Debug\MiCalculadora.csproj.CopyComplete
+C:\Users\sant_\Desktop\tp_laboratorio_2\RecuperatoriosTP\TP1\Tp01 Serein Álvaro\MiCalculadora\obj\Debug\MiCalculadora.exe
+C:\Users\sant_\Desktop\tp_laboratorio_2\RecuperatoriosTP\TP1\Tp01 Serein Álvaro\MiCalculadora\obj\Debug\MiCalculadora.pdb
+C:\Users\Aguss\Desktop\tp_laboratorio_2-master\RecuperatoriosTP\TP1\Tp01 Serein Álvaro\MiCalculadora\bin\Debug\MiCalculadora.exe.config
+C:\Users\Aguss\Desktop\tp_laboratorio_2-master\RecuperatoriosTP\TP1\Tp01 Serein Álvaro\MiCalculadora\bin\Debug\MiCalculadora.exe
+C:\Users\Aguss\Desktop\tp_laboratorio_2-master\RecuperatoriosTP\TP1\Tp01 Serein Álvaro\MiCalculadora\bin\Debug\MiCalculadora.pdb
+C:\Users\Aguss\Desktop\tp_laboratorio_2-master\RecuperatoriosTP\TP1\Tp01 Serein Álvaro\MiCalculadora\bin\Debug\Entidades.dll
+C:\Users\Aguss\Desktop\tp_laboratorio_2-master\RecuperatoriosTP\TP1\Tp01 Serein Álvaro\MiCalculadora\bin\Debug\Entidades.pdb
+C:\Users\Aguss\Desktop\tp_laboratorio_2-master\RecuperatoriosTP\TP1\Tp01 Serein Álvaro\MiCalculadora\obj\Debug\MiCalculadora.csprojAssemblyReference.cache
+C:\Users\Aguss\Desktop\tp_laboratorio_2-master\RecuperatoriosTP\TP1\Tp01 Serein Álvaro\MiCalculadora\obj\Debug\MiCalculadora.FormCalculadora.resources
+C:\Users\Aguss\Desktop\tp_laboratorio_2-master\RecuperatoriosTP\TP1\Tp01 Serein Álvaro\MiCalculadora\obj\Debug\MiCalculadora.Properties.Resources.resources
+C:\Users\Aguss\Desktop\tp_laboratorio_2-master\RecuperatoriosTP\TP1\Tp01 Serein Álvaro\MiCalculadora\obj\Debug\MiCalculadora.csproj.GenerateResource.cache
+C:\Users\Aguss\Desktop\tp_laboratorio_2-master\RecuperatoriosTP\TP1\Tp01 Serein Álvaro\MiCalculadora\obj\Debug\MiCalculadora.csproj.CopyComplete
+C:\Users\Aguss\Desktop\tp_laboratorio_2-master\RecuperatoriosTP\TP1\Tp01 Serein Álvaro\MiCalculadora\obj\Debug\MiCalculadora.exe
+C:\Users\Aguss\Desktop\tp_laboratorio_2-master\RecuperatoriosTP\TP1\Tp01 Serein Álvaro\MiCalculadora\obj\Debug\MiCalculadora.pdb

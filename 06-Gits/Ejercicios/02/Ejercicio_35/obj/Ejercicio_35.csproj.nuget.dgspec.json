@@ -1,0 +1,181 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Aguss\\Desktop\\Gits\\Labo_II(3)\\Carpeta-Csharp-master\\Serein.Álvaro\\Ejercicio_35\\Ejercicio_35.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Aguss\\Desktop\\Gits\\Labo_II(3)\\Carpeta-Csharp-master\\Serein.Álvaro\\Ejercicio_29\\Ejercicio_29.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Aguss\\Desktop\\Gits\\Labo_II(3)\\Carpeta-Csharp-master\\Serein.Álvaro\\Ejercicio_29\\Ejercicio_29.csproj",
+        "projectName": "Ejercicio_29",
+        "projectPath": "C:\\Users\\Aguss\\Desktop\\Gits\\Labo_II(3)\\Carpeta-Csharp-master\\Serein.Álvaro\\Ejercicio_29\\Ejercicio_29.csproj",
+        "packagesPath": "C:\\Users\\Aguss\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Aguss\\Desktop\\Gits\\Labo_II(3)\\Carpeta-Csharp-master\\Serein.Álvaro\\Ejercicio_29\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Aguss\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.0": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Aguss\\Desktop\\Gits\\Labo_II(3)\\Carpeta-Csharp-master\\Serein.Álvaro\\Ejercicio_32\\Ejercicio_32.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Aguss\\Desktop\\Gits\\Labo_II(3)\\Carpeta-Csharp-master\\Serein.Álvaro\\Ejercicio_32\\Ejercicio_32.csproj",
+        "projectName": "Ejercicio_32",
+        "projectPath": "C:\\Users\\Aguss\\Desktop\\Gits\\Labo_II(3)\\Carpeta-Csharp-master\\Serein.Álvaro\\Ejercicio_32\\Ejercicio_32.csproj",
+        "packagesPath": "C:\\Users\\Aguss\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Aguss\\Desktop\\Gits\\Labo_II(3)\\Carpeta-Csharp-master\\Serein.Álvaro\\Ejercicio_32\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Aguss\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.0": {
+            "projectReferences": {
+              "C:\\Users\\Aguss\\Desktop\\Gits\\Labo_II(3)\\Carpeta-Csharp-master\\Serein.Álvaro\\Ejercicio_29\\Ejercicio_29.csproj": {
+                "projectPath": "C:\\Users\\Aguss\\Desktop\\Gits\\Labo_II(3)\\Carpeta-Csharp-master\\Serein.Álvaro\\Ejercicio_29\\Ejercicio_29.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.0": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Aguss\\Desktop\\Gits\\Labo_II(3)\\Carpeta-Csharp-master\\Serein.Álvaro\\Ejercicio_35\\Ejercicio_35.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Aguss\\Desktop\\Gits\\Labo_II(3)\\Carpeta-Csharp-master\\Serein.Álvaro\\Ejercicio_35\\Ejercicio_35.csproj",
+        "projectName": "Ejercicio_35",
+        "projectPath": "C:\\Users\\Aguss\\Desktop\\Gits\\Labo_II(3)\\Carpeta-Csharp-master\\Serein.Álvaro\\Ejercicio_35\\Ejercicio_35.csproj",
+        "packagesPath": "C:\\Users\\Aguss\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Aguss\\Desktop\\Gits\\Labo_II(3)\\Carpeta-Csharp-master\\Serein.Álvaro\\Ejercicio_35\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Aguss\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.0": {
+            "projectReferences": {
+              "C:\\Users\\Aguss\\Desktop\\Gits\\Labo_II(3)\\Carpeta-Csharp-master\\Serein.Álvaro\\Ejercicio_32\\Ejercicio_32.csproj": {
+                "projectPath": "C:\\Users\\Aguss\\Desktop\\Gits\\Labo_II(3)\\Carpeta-Csharp-master\\Serein.Álvaro\\Ejercicio_32\\Ejercicio_32.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.0": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
