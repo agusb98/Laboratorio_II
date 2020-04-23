@@ -2,26 +2,67 @@
 
 namespace Biblioteca
 {
-    public class Empleado
+    public class Empleado : Persona
     {
-        private string nombre;
-        private string apellido;
-        private long dni;
+        private int id;
+        private string direccion;
+        private int horasTrabajadas;
 
-        public Empleado(string nombre, string apellido, long dni)
+        #region Propiedades
+
+        public Empleado() :
+            this(0, string.Empty, 0)
         {
-            this.nombre = nombre;
-            this.apellido = apellido;
-            this.dni = dni;
         }
 
-        public void Mostrar()
+        public Empleado(int id, string direccion, int horasTrabajadas)
         {
-            Console.WriteLine("Nombre: {0}", this.nombre);
-            Console.WriteLine("Apellido: {0}", this.apellido);
-            Console.WriteLine("Dni: {0}", this.dni);
-            Console.WriteLine();
+            this.id = id;
+            this.direccion = direccion;
+            this.horasTrabajadas = horasTrabajadas;
+        }
+        public int Id
+        {
+            get
+            {
+                return this.id;
+            }
+            set
+            {
+                if (value >= 0)
+                {
+                    this.id = value;
+                }
+            }
         }
 
+        public string Direccion
+        {
+            get
+            {
+                return this.direccion;
+            }
+            set
+            {
+                this.direccion = value;
+            }
+        }
+
+        public int HorasTrabajadas
+        {
+            get
+            {
+                return this.horasTrabajadas;
+            }
+            set
+            {
+                if (value >= 0)
+                {
+                    this.horasTrabajadas = value;
+                }
+            }
+        }
+
+        #endregion
     }
 }

@@ -293,14 +293,14 @@ namespace Biblioteca
         /// </summary>
         /// <param name="num">Cadena a ser validada.</param>
         /// <returns></returns>
-        public static bool Dni(ref double num)
+        public static bool Dni(ref long num)
         {
             string str = num.ToString();
 
             if (!Validacion.Dni(ref str))
                 return false;
 
-            double.TryParse(str, out num);
+            long.TryParse(str, out num);
             return true;
         }
         /// <summary>

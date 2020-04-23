@@ -8,7 +8,7 @@ namespace Biblioteca
 {
     public class Competencia
     {
-        #region Fields
+        #region Atributos
 
         private short cantidadCompetidores;
         private List<AutoF1> competidores;
@@ -16,7 +16,7 @@ namespace Biblioteca
 
         #endregion
 
-        #region Methods
+        #region Constructores
 
         private Competencia()
         {

@@ -9,14 +9,21 @@ namespace Biblioteca
 {
     public class PuestoAtencion
     {
+        #region Enumerados
         public enum Puesto
         {
             Caja1, Caja2
         }
+        #endregion
+
+        #region Atributos
 
         private static int numeroActual;
         private Puesto puesto;
 
+        #endregion
+
+        #region Propiedades
         public static int NumeroActual
         {
             get
@@ -25,17 +32,6 @@ namespace Biblioteca
                 return numeroActual;
             }
         }
-
-        private PuestoAtencion()
-        {
-            numeroActual = 0;
-        }
-
-        public PuestoAtencion(Puesto puesto) : this()
-        {
-            this.puesto = puesto;
-        }
-
         public bool Atender(Cliente cli)
         {
             bool retorno = false;
@@ -47,7 +43,19 @@ namespace Biblioteca
 
             return retorno;
         }
+        #endregion
 
+        #region Constructores
 
+        private PuestoAtencion()
+        {
+            numeroActual = 0;
+        }
+
+        public PuestoAtencion(Puesto puesto) : this()
+        {
+            this.puesto = puesto;
+        }
+        #endregion
     }
 }

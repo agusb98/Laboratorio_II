@@ -1,0 +1,12 @@
+C:\Users\Aguss\Desktop\git\03-Tps\Recuperatorios TP\TP1\obj\Debug\MiCalculadora.csprojAssemblyReference.cache
+C:\Users\Aguss\Desktop\git\03-Tps\Recuperatorios TP\TP1\obj\Debug\TP1.FormCalculadora.resources
+C:\Users\Aguss\Desktop\git\03-Tps\Recuperatorios TP\TP1\obj\Debug\TP1.Properties.Resources.resources
+C:\Users\Aguss\Desktop\git\03-Tps\Recuperatorios TP\TP1\obj\Debug\MiCalculadora.csproj.GenerateResource.cache
+C:\Users\Aguss\Desktop\git\03-Tps\Recuperatorios TP\TP1\bin\Debug\TP1.exe.config
+C:\Users\Aguss\Desktop\git\03-Tps\Recuperatorios TP\TP1\bin\Debug\TP1.exe
+C:\Users\Aguss\Desktop\git\03-Tps\Recuperatorios TP\TP1\bin\Debug\TP1.pdb
+C:\Users\Aguss\Desktop\git\03-Tps\Recuperatorios TP\TP1\bin\Debug\Entidades.dll
+C:\Users\Aguss\Desktop\git\03-Tps\Recuperatorios TP\TP1\bin\Debug\Entidades.pdb
+C:\Users\Aguss\Desktop\git\03-Tps\Recuperatorios TP\TP1\obj\Debug\MiCalculadora.csproj.CopyComplete
+C:\Users\Aguss\Desktop\git\03-Tps\Recuperatorios TP\TP1\obj\Debug\TP1.exe
+C:\Users\Aguss\Desktop\git\03-Tps\Recuperatorios TP\TP1\obj\Debug\TP1.pdb

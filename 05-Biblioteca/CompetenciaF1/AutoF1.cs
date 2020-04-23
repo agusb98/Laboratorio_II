@@ -1,12 +1,11 @@
 ﻿using System;
 using System.Text;
 
-
 namespace Biblioteca
 {
     public class AutoF1
     {
-        #region Fields
+        #region Atributos
 
         private short cantidadCombustible;
         private bool enCompetencia;
@@ -16,8 +15,11 @@ namespace Biblioteca
 
         #endregion
 
-        private AutoF1()
+        #region Constructores
+        private AutoF1() :
+            this(0, string.Empty)
         {
+
         }
 
         public AutoF1(short numero, string escuderia)
@@ -26,6 +28,9 @@ namespace Biblioteca
             this.escuderia = escuderia;
         }
 
+        #endregion
+
+        #region Propiedades
         public short CantidadCombustible
         {
             get
@@ -67,6 +72,11 @@ namespace Biblioteca
                 }
             }
         }
+
+        #endregion
+
+        #region Metodos
+
         public string Mostrar()
         {
             StringBuilder str = new StringBuilder();
@@ -80,6 +90,10 @@ namespace Biblioteca
             return str.ToString();
         }
 
+        #endregion
+
+        #region Sobrecarga de Operadores
+
         public static bool operator ==(AutoF1 a, AutoF1 b)
         {
             return a.numero == b.numero && a.escuderia == b.escuderia;
@@ -89,5 +103,7 @@ namespace Biblioteca
         {
             return !(a == b);
         }
+
+        #endregion
     }
 }

@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Text;
 
 namespace Biblioteca
 {
@@ -6,7 +7,7 @@ namespace Biblioteca
     {
         #region Fields
 
-        private double dni;
+        private long dni;
         private string apellido;
         private string nombre;
 
@@ -14,24 +15,19 @@ namespace Biblioteca
 
         #region Methods
 
-        public Persona(double dni)
-            : this(dni, string.Empty, string.Empty)
+        public Persona():
+            this (0, string.Empty, string.Empty)
         {
         }
 
-        public Persona(double dni, string apellido, string nombre)
-            : this(apellido, nombre)
+        public Persona(long dni, string apellido, string nombre)
         {
             this.dni = dni;
-        }
-
-        public Persona(string apellido, string nombre)
-        {
             this.apellido = apellido;
             this.nombre = nombre;
         }
 
-        public double Dni
+        public long Dni
         {
             get
             {
@@ -39,7 +35,7 @@ namespace Biblioteca
             }
             set
             {
-                if (!double.IsNaN(value))
+                if (Validacion.Dni(ref value))
                 {
                     this.dni = value;
                 }
@@ -76,12 +72,15 @@ namespace Biblioteca
             }
         }
 
-        public void Mostrar()
+        public string Mostrar()
         {
-            Console.WriteLine("Nombre: {0}", this.nombre);
-            Console.WriteLine("Apellido: {0}", this.apellido);
-            Console.WriteLine("Dni: {0}", this.dni);
-            Console.WriteLine();
+            StringBuilder str = new StringBuilder();
+
+            str.AppendLine("Nombre: " + this.Nombre);
+            str.AppendLine("Apellido: " + this.Apellido);
+            str.AppendLine("Dni: " + this.Dni);
+
+            return str.ToString();
         }
 
         #endregion

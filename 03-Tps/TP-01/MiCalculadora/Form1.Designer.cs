@@ -58,6 +58,7 @@
             this.cmbOperacion.Name = "cmbOperacion";
             this.cmbOperacion.Size = new System.Drawing.Size(66, 32);
             this.cmbOperacion.TabIndex = 1;
+            this.cmbOperacion.SelectedIndexChanged += new System.EventHandler(this.cmbOperacion_SelectedIndexChanged);
             // 
             // btnOperar
             // 

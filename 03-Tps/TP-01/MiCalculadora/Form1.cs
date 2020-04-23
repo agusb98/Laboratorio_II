@@ -104,5 +104,10 @@ namespace MiCalculadora
         {
 
         }
+
+        private void cmbOperacion_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -41,15 +41,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Vehiculo\Moto.cs" />
+    <Compile Include="Vehiculo\EMarcas.cs" />
     <Compile Include="Persona\Alumno.cs" />
     <Compile Include="AtencionAlCliente\Cliente.cs" />
     <Compile Include="AtencionAlCliente\Negocio.cs" />
     <Compile Include="AtencionAlCliente\PuestoAtencion.cs" />
-    <Compile Include="Rodado\Auto.cs">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Compile>
     <Compile Include="CompetenciaF1\AutoF1.cs" />
     <Compile Include="Numero\Binario.cs" />
+    <Compile Include="Vehiculo\Vehiculo.cs" />
     <Compile Include="Temperatura\Celsius.cs" />
     <Compile Include="CompetenciaF1\Competencia.cs" />
     <Compile Include="Numero\Decimal.cs" />
@@ -62,7 +62,6 @@
     <Compile Include="Persona\Jugador.cs" />
     <Compile Include="Temperatura\Kelvin.cs" />
     <Compile Include="Estante\Libro.cs" />
-    <Compile Include="Rodado\Moto.cs" />
     <Compile Include="Paleta.cs" />
     <Compile Include="Persona\Persona.cs" />
     <Compile Include="Billete\Peso.cs" />

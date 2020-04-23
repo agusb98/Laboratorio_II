@@ -1,6 +1,0 @@
-D:\Federico\VB .Net\Visual C#\utn\2017\utn_prog_y_lab_II\Exámenes\Hecho\Entidades\bin\Debug\Entidades.dll
-D:\Federico\VB .Net\Visual C#\utn\2017\utn_prog_y_lab_II\Exámenes\Hecho\Entidades\bin\Debug\Entidades.pdb
-D:\Federico\VB .Net\Visual C#\utn\2017\utn_prog_y_lab_II\Exámenes\Hecho\Entidades\obj\Debug\Entidades.csprojAssemblyReference.cache
-D:\Federico\VB .Net\Visual C#\utn\2017\utn_prog_y_lab_II\Exámenes\Hecho\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
-D:\Federico\VB .Net\Visual C#\utn\2017\utn_prog_y_lab_II\Exámenes\Hecho\Entidades\obj\Debug\Entidades.dll
-D:\Federico\VB .Net\Visual C#\utn\2017\utn_prog_y_lab_II\Exámenes\Hecho\Entidades\obj\Debug\Entidades.pdb
