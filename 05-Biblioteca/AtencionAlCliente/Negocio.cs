@@ -1,16 +1,20 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 
 namespace Biblioteca
 {
     public class Negocio
     {
+        #region Fields
+
         private PuestoAtencion caja;
         private Queue<Cliente> clientes;
         private string nombre;
+
+        #endregion
+
+        #region Properties
 
         private Negocio()
         {
@@ -37,6 +41,9 @@ namespace Biblioteca
                 bool var = this + value;
             }
         }
+#endregion
+
+        #region Methods
 
         public static bool operator +(Negocio n, Cliente c)
         {
@@ -76,5 +83,6 @@ namespace Biblioteca
 
             return retorno;
         }
+        #endregion
     }
 }

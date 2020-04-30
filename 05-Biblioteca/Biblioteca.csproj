@@ -41,8 +41,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Centralita\Centralita.cs" />
+    <Compile Include="Centralita\Provincial.cs" />
+    <Compile Include="CompetenciaF1\VehiculoDeCarrera.cs" />
+    <Compile Include="CompetenciaF1\MotoCross.cs" />
+    <Compile Include="Centralita\Llamada.cs" />
+    <Compile Include="Centralita\Local.cs" />
+    <Compile Include="Vehiculo\Camion.cs" />
+    <Compile Include="Vehiculo\Auto.cs" />
     <Compile Include="Vehiculo\Moto.cs" />
-    <Compile Include="Vehiculo\EMarcas.cs" />
     <Compile Include="Persona\Alumno.cs" />
     <Compile Include="AtencionAlCliente\Cliente.cs" />
     <Compile Include="AtencionAlCliente\Negocio.cs" />
@@ -55,19 +62,19 @@
     <Compile Include="Numero\Decimal.cs" />
     <Compile Include="Billete\Dolar.cs" />
     <Compile Include="Persona\Empleado.cs" />
-    <Compile Include="Equipo.cs" />
+    <Compile Include="Equipo\Equipo.cs" />
     <Compile Include="Estante\Estante.cs" />
     <Compile Include="Billete\Euro.cs" />
     <Compile Include="Temperatura\Fahrenheit.cs" />
     <Compile Include="Persona\Jugador.cs" />
     <Compile Include="Temperatura\Kelvin.cs" />
     <Compile Include="Estante\Libro.cs" />
-    <Compile Include="Paleta.cs" />
+    <Compile Include="PaletaColores\Paleta.cs" />
     <Compile Include="Persona\Persona.cs" />
     <Compile Include="Billete\Peso.cs" />
     <Compile Include="Estante\Producto.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Tempera.cs" />
+    <Compile Include="PaletaColores\Tempera.cs" />
     <Compile Include="Validacion\Validacion.cs" />
   </ItemGroup>
   <ItemGroup />

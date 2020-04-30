@@ -7,26 +7,53 @@ namespace Biblioteca
     {
         #region Fields
 
-        private long dni;
-        private string apellido;
-        private string nombre;
+        protected long dni;
+        protected string apellido;
+        protected string nombre;
+        protected DateTime fechaNacimiento;
 
         #endregion
 
-        #region Methods
+        #region Constructores
 
-        public Persona():
-            this (0, string.Empty, string.Empty)
+        /// <summary>
+        /// Instancia Persona con atributos vacios
+        /// </summary>
+        public Persona() :
+            this(0, "DESCONOCIDO", "DESCONOCIDO", new DateTime())
         {
         }
 
-        public Persona(long dni, string apellido, string nombre)
+        /// <summary>
+        /// Instancia Persona con atributo pasado por parametro
+        /// </summary>
+        /// <param name="persona"></param>
+        public Persona(Persona persona) :
+            this(persona.Dni, persona.Apellido, persona.Nombre, persona.fechaNacimiento)
+        { }
+
+        /// <summary>
+        /// Instancia Persona con atributos pasados por parametro
+        /// </summary>
+        /// <param name="dni"></param>
+        /// <param name="apellido"></param>
+        /// <param name="nombre"></param>
+        /// <param name="fechaNacimiento"></param>
+        public Persona(long dni, string apellido, string nombre, DateTime fechaNacimiento)
         {
-            this.dni = dni;
-            this.apellido = apellido;
-            this.nombre = nombre;
+            this.Dni = dni;
+            this.Apellido = apellido;
+            this.Nombre = nombre;
+            this.FechaNacimiento = fechaNacimiento;
         }
 
+        #endregion
+
+        #region Properties
+
+        /// <summary>
+        /// Obtiene/Modifica DNI de Persona
+        /// </summary>
         public long Dni
         {
             get
@@ -42,6 +69,9 @@ namespace Biblioteca
             }
         }
 
+        /// <summary>
+        /// Obtiene/Modifica Nombre de Persona
+        /// </summary>
         public string Nombre
         {
             get
@@ -57,6 +87,9 @@ namespace Biblioteca
             }
         }
 
+        /// <summary>
+        /// Obtiene/Modifica Apellido de Persona
+        /// </summary>
         public string Apellido
         {
             get
@@ -72,17 +105,67 @@ namespace Biblioteca
             }
         }
 
+        /// <summary>
+        /// Devuelve/Modifica fecha de nacimiento de Persona
+        /// </summary>
+        public DateTime FechaNacimiento
+        {
+            get
+            {
+                return this.fechaNacimiento;
+            }
+            set
+            {
+                this.fechaNacimiento = value;
+            }
+        }
+
+        #endregion
+
+        #region Methods
+
+        /// <summary>
+        /// Muestra por pantalla datos de Persona
+        /// </summary>
+        /// <returns></returns> string con datos de Persona
         public string Mostrar()
         {
             StringBuilder str = new StringBuilder();
 
-            str.AppendLine("Nombre: " + this.Nombre);
-            str.AppendLine("Apellido: " + this.Apellido);
-            str.AppendLine("Dni: " + this.Dni);
+            if (!(this is null))
+            {
+                str.AppendLine("Dni: " + this.Dni);
+                str.AppendLine("Apellido: " + this.Apellido);
+                str.AppendLine("Nombre: " + this.Nombre);
+                str.AppendLine("Fecha de Nacimiento: " + this.FechaNacimiento);
+            }
 
             return str.ToString();
         }
 
+        /// <summary>
+        /// Verifica igualdad entre dos Personas
+        /// </summary>
+        /// <param name="a1"><Persona/param>
+        /// <param name="a2"><Persona/param>
+        /// <returns></returns>
+
+        public static bool operator ==(Persona a1, Persona a2)
+        {
+            return a1.Dni == a2.Dni;
+        }
+
+        /// <summary>
+        /// Verifica desigualdad entre dos Personas
+        /// </summary>
+        /// <param name="a1"><Persona/param>
+        /// <param name="a2"><Persona/param>
+        /// <returns></returns>
+
+        public static bool operator !=(Persona a1, Persona a2)
+        {
+            return !(a1 == a2);
+        }
         #endregion
     }
 }

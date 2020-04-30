@@ -9,21 +9,25 @@ namespace Biblioteca
 {
     public class PuestoAtencion
     {
-        #region Enumerados
+        #region Nested types
         public enum Puesto
         {
             Caja1, Caja2
         }
         #endregion
 
-        #region Atributos
+        #region Fields
 
         private static int numeroActual;
         private Puesto puesto;
 
         #endregion
 
-        #region Propiedades
+        #region Properties
+
+        /// <summary>
+        /// Obtiene el Numero Actual 
+        /// </summary>
         public static int NumeroActual
         {
             get
@@ -32,25 +36,23 @@ namespace Biblioteca
                 return numeroActual;
             }
         }
-        public bool Atender(Cliente cli)
+
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="c"></Cliente>
+        /// <returns></returns>
+        public bool Atender(Cliente c)
         {
-            bool retorno = false;
-            if (cli != null)
+            if (c != null)
             {
                 Thread.Sleep(1500);
-                retorno = true;
+                return true;
             }
-
-            return retorno;
+            return false;
         }
-        #endregion
 
-        #region Constructores
-
-        private PuestoAtencion()
-        {
-            numeroActual = 0;
-        }
+        private PuestoAtencion() { numeroActual = 0; }
 
         public PuestoAtencion(Puesto puesto) : this()
         {

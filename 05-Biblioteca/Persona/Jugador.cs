@@ -4,26 +4,40 @@ using System.Text;
 
 namespace Biblioteca
 {
-    public class Jugador
+    public class Jugador : Persona
     {
         #region Fields
 
-        private double dni;
-        private string nombre;
+        private int totalGoles;
         private int partidosJugados;
         private float promedioGoles;
-        private int totalGoles;
 
         #endregion
 
-        private Jugador()
+        #region Properties
+
+        /// <summary>
+        /// Instancia un nuevo Jugador
+        /// </summary>
+        /// <param name="persona"></param>
+        /// <param name="totalGoles"></param>
+        /// <param name="partidosJugados"></param>
+
+        public Jugador(Persona persona, int totalGoles, int partidosJugados) : base(persona)
         {
+            this.totalGoles = totalGoles;
+            this.partidosJugados = partidosJugados;
+            this.promedioGoles = PromedioGoles;
         }
 
-        public Jugador(double dni, string nombre, int partidosJugados) :
-            this(dni, nombre, partidosJugados, 0)
-        {
-        }
+        /// <summary>
+        /// Instancia un nuevo Jugador con atributos vacios
+        /// </summary>
+        public Jugador() : this(new Persona(), 0, 0) { }
+
+        /// <summary>
+        /// Modifica / Obitiene el promedio de goles 
+        /// </summary>
 
         public float PromedioGoles
         {
@@ -33,44 +47,54 @@ namespace Biblioteca
                 {
                     this.promedioGoles = this.totalGoles / (float)this.partidosJugados;
                 }
-                else
-                {
-                    this.promedioGoles = 0;
-                }
                 return this.promedioGoles;
             }
         }
+        #endregion
 
-        public Jugador(double dni, string nombre, int partidosJugados, int totalGoles)
-        {
-            this.dni = dni;
-            this.nombre = nombre;
-            this.partidosJugados = partidosJugados;
-            this.totalGoles = totalGoles;
-            this.promedioGoles = PromedioGoles;
-        }
+        #region Methods
 
-        public string Mostrar()
+        /// <summary>
+        /// Mustra los Atributos del Jugador
+        /// </summary>
+        /// <returns></returns>
+
+        public string MostrarJugador()
         {
             StringBuilder str = new StringBuilder();
 
-            str.AppendLine("Dni: " + this.dni);
-            str.AppendLine("Nombre: " + this.nombre);
-            str.AppendLine("Partidos: " + this.partidosJugados);
-            str.AppendLine("Promedio Goles: " + PromedioGoles);
-            str.AppendLine("Total Goles: " + this.totalGoles);
+            if (!(this is null))
+            {
+                str.AppendLine("Total Goles: " + this.totalGoles);
+                str.AppendLine("Partidos: " + this.partidosJugados);
+                str.AppendLine("Promedio Goles: " + this.PromedioGoles);
+                str.Append(base.Mostrar());
+            }
 
             return str.ToString();
         }
 
+        /// <summary>
+        /// Verifica igualdad entre dos Jugadores
+        /// </summary>
+        /// <param name="a"></param>
+        /// <param name="b"></param>
+        /// <returns></returns>
         public static bool operator ==(Jugador a, Jugador b)
         {
-            return (a.dni == b.dni);
+            return ((Persona)a == (Persona)b);
         }
 
+        /// <summary>
+        /// Verifica desigualdad entre dos Jugadores
+        /// </summary>
+        /// <param name="a"></param>
+        /// <param name="b"></param>
+        /// <returns></returns>
         public static bool operator !=(Jugador a, Jugador b)
         {
             return !(a == b);
         }
+        #endregion
     }
 }

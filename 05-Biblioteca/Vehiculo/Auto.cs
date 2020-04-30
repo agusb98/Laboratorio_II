@@ -3,7 +3,7 @@ using System.Text;
 
 namespace Biblioteca
 {
-    public class Moto : Vehiculo
+    public class Auto : Vehiculo
     {
         #region Atributos
 
@@ -36,16 +36,11 @@ namespace Biblioteca
         /// <param name="velocidadMax"></param>
         /// <param name="marca"></param>
         /// <param name="vehiculo"></param>
-        public Moto(double velocidadMax, string patente, byte cantRuedas, EColores color):
+        public Auto(double velocidadMax, string patente, byte cantRuedas, EColores color) :
             base(patente, cantRuedas, color)
         {
             this.velocidadMax = velocidadMax;
         }
-
-        /// <summary>
-        /// Instancia Moto con atributos vacios
-        /// </summary>
-        public Moto() : base(){ }
 
         #endregion
 
@@ -58,7 +53,7 @@ namespace Biblioteca
             if (!(this is null))
             {
                 str.AppendLine(base.Mostrar());
-                str.AppendLine("Velocidad Max: " + this.VelocidadMax);
+                str.AppendLine("Velocidad Max: " + VelocidadMax);
             }
 
             return str.ToString();
@@ -68,6 +63,7 @@ namespace Biblioteca
         {
             return Mostrar();
         }
+
         #endregion
     }
 }

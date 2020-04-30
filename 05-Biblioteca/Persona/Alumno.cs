@@ -1,96 +1,151 @@
-﻿using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Text;
 using System;
 
 namespace Biblioteca
 {
-    public class Alumno
+    public class Alumno : Persona
     {
         #region Campos
 
-        byte nota1;
-        byte nota2;
-        double notaFinal;
-        //int id;
-        //bool status;
-        //string name;
-        //string surname;
+        private byte nota1;
+        private byte nota2;
+        private double notaFinal;
 
         #endregion
 
-        #region Métodos
+        #region Constructores
 
-        public void Add()
+        /// <summary>
+        /// Instancia un nuevo Alumno
+        /// </summary>
+        
+        public Alumno() : this(0, 0, new Persona()) { }
+
+
+        /// <summary>
+        /// Instancia un nuevo Alumno
+        /// </summary>
+        /// <param name="dni"></param>
+        /// <param name="nombre"></param>
+        /// <param name="apellido"></param>
+        
+        public Alumno(byte nota1, byte nota2, Persona persona) :
+            base(persona)
         {
-            //this.person.status = true;
+            this.Nota1 = nota1;
+            this.Nota2 = nota2;
+            this.NotaFinal = NotaFinal;
         }
 
-        public void Delete()
-        {
-            //this.person.status = false;
-        }
-        public byte FirstExam
-        {
-            get
-            {
-                if (nota1 >= 0)
-                    return this.nota1;
+        #endregion
 
-                else
-                    return 0;
-            }
+        #region Propiedades
+
+        public byte Nota1
+        {
             set
             {
-                if (value >= 0)
+                if (value <= 10)
+                {
                     this.nota1 = value;
+                }
             }
-        }
-
-        public byte SecondExam
-        {
             get
             {
-                if (nota2 >= 0)
-                    return this.nota2;
-
-                else
-                    return 0;
+                return this.nota1;
             }
+        }
+
+        public byte Nota2
+        {
             set
             {
-                if (value >= 0)
+                if (value <= 10)
+                {
                     this.nota2 = value;
+                }
             }
-        }
-
-        public void CalcularFinal()
-        {
-            if (this.nota1 > 3 && this.nota2 > 3)
+            get
             {
-                this.notaFinal = this.nota1 / this.nota2;
+                return this.nota2;
             }
-
-            else
-                this.notaFinal = -1;
         }
 
-        public void Mostrar()
+        public double NotaFinal
         {
-            Console.WriteLine("Nota 1: {0}", this.nota1);
-            Console.WriteLine("Nota 2: {0}", this.nota2);/*
-            Console.WriteLine("Nombre: {0}", this.person.name);
-            Console.WriteLine("Apellido: {0}", this.person.surname);
-            Console.WriteLine("Legajo: {0}", this.person.id);*/
+            set
+            {
+                if (this.nota1 > 3 && this.nota2 > 3)
+                {
+                    this.notaFinal = this.nota1 / this.nota2;
+                }
 
-            if (this.notaFinal != -1)
-                Console.WriteLine("Nota Final: {0}", this.notaFinal);
-
-            else
-                Console.WriteLine("Alumno Desaprobado");
+                else
+                    this.notaFinal = -1;
+            }
+            get
+            {
+                return this.notaFinal;
+            }
         }
 
+        #endregion
+
+        #region Metodos
+
+        public string MostrarAlumno()
+        {
+            StringBuilder str = new StringBuilder();
+
+            if (!(this is null))
+            {
+                str.AppendLine("Nota 1: " + this.Nota1);
+                str.AppendLine("Nota 2: " + this.Nota2);
+                str.Append(base.Mostrar());
+
+                if (this.NotaFinal != -1)
+                {
+                    str.AppendLine("Nota Final: " + this.NotaFinal);
+                }
+                else
+                {
+                    str.AppendLine("Alumno Desaprobado");
+                }
+            }
+            return str.ToString();
+        }
+
+        /// <summary>
+        /// Verifica igualdad entre dos Alumnos
+        /// </summary>
+        /// <param name="a"><Alumno/param>
+        /// <param name="b"><Alumno/param>
+        /// <returns></returns>
+        public static bool operator ==(Alumno a, Alumno b)
+        {
+            return ((Persona)a == (Persona)b);
+        }
+
+        /// <summary>
+        /// Verifica desigualdad entre dos Alumnos
+        /// </summary>
+        /// <param name="a"><Alumno/param>
+        /// <param name="b"><Alumno/param>
+        /// <returns></returns>
+        public static bool operator !=(Alumno a, Alumno b)
+        {
+            return !(a == b);
+        }
+
+        /// <summary>
+        /// Verifica igualdad 
+        /// </summary>
+        /// <param name="obj"></param>
+        /// <returns></returns>
+        public override bool Equals(object obj)
+        {
+            return obj is Alumno && this == (Alumno)obj;
+        }
         #endregion
     }
 }

@@ -31,7 +31,7 @@ namespace Biblioteca
         /// <returns></returns>
         public static bool ContainsNumber(string str)
         {
-            return Regex.Match(str, @"\d").Success;
+            return !ContainsLetter(str);
         }
 
         /// <summary>
@@ -42,6 +42,11 @@ namespace Biblioteca
         public static bool ContainsNumber(char chr)
         {
             return ContainsNumber(chr.ToString());
+        }
+
+        public static bool ContainsLetter(string str)
+        {
+            return Regex.Match(str, @"[a-zA-Z]").Success;
         }
 
         /// <summary>
@@ -68,9 +73,9 @@ namespace Biblioteca
         /// </summary>
         /// <param name="str">Cadena a ser validada.</param>
         /// <returns></returns>
-        public static bool ContainsLetter(string str)
+        public static bool OnlyLetters(string str)
         {
-            return Regex.IsMatch(str, "^[a-zA-Z]*$");
+            return !ContainsNumber(str);
         }
 
         /// <summary>
@@ -78,9 +83,9 @@ namespace Biblioteca
         /// </summary>
         /// <param name="chr">Cadena a ser validada.</param>
         /// <returns></returns>
-        public static bool ContainsLetter(char chr)
+        public static bool OnlyLetters(char chr)
         {
-            return ContainsLetter(chr.ToString());
+            return OnlyLetters(chr.ToString());
         }
 
         /// <summary>
@@ -187,41 +192,13 @@ namespace Biblioteca
         /// <returns></returns>
         public static bool Name(ref string str)
         {
-            bool flag;
-            if (ContainsNumber(str) || ContainsSpecialCharacter(str) || str.Length == 0)
+            if (ContainsNumber(str) || ContainsSpecialCharacter(str) || str.Length == 0 || str.Length > 20)
             {
-                Console.WriteLine("Ups! Solo debe tener letras");
-                flag = false;
+                return false;
             }
-            else
-            {
-                Console.WriteLine("Dato Ingresado con Éxito");
-                str = str.ToUpperInvariant();
-                flag = true;
-            }
-
-            Console.ReadLine();
-            return flag;
+            return true;
         }
 
-        /// <summary>
-        /// Valida que la cadena ingresada cumpla los estándares de una marca
-        /// </summary>
-        /// <param name="str">Cadena a ser validada.</param>
-        /// <returns></returns>
-        public static bool Marca(ref string str)
-        {
-            bool flag = false;
-            if (!ContainsSpecialCharacter(str))
-            {
-                Console.WriteLine("Dato Ingresado con Éxito");
-                str = str.ToUpperInvariant();
-                flag = true;
-            }
-
-            Console.ReadLine();
-            return flag;
-        }
 
         /// <summary>
         /// Valida que la cadena ingresada cumpla ser patente
@@ -230,19 +207,11 @@ namespace Biblioteca
         /// <returns></returns>
         public static bool Patent(ref string str)
         {
-            bool flag = false;
-
             if (ValidPatent(ref str))
             {
-                Console.WriteLine("Dato Ingresado con Éxito");
-                flag = true;
+                return true;
             }
-
-            else
-                Console.WriteLine("La patente ingresada no cumple con las normas");
-
-            Console.ReadLine();
-            return flag;
+            return false;
         }
 
         /// <summary>
@@ -254,12 +223,26 @@ namespace Biblioteca
         {
             str = str.ToUpperInvariant();
             str = str.Replace(" ", "");
+            string firstPart = string.Empty;
+            string secondPart = string.Empty;
 
-            //Para las patentes antiguas aún vigentes
+            //Para las patentes antiguas aún vigentes: aaa123 o 321aaa
 
             if (str.Length == 6)
             {
-                //
+                firstPart.Substring(0, 3);
+                secondPart.Substring(3, 6);
+
+                if (OnlyNumbers(firstPart) && OnlyLetters(secondPart))
+                {
+                    return true;
+                }
+                else if (OnlyNumbers(secondPart) && OnlyLetters(firstPart))
+                {
+                    return true;
+                }
+
+                return false;
             }
 
             //Para las patentes nuevas
@@ -268,13 +251,13 @@ namespace Biblioteca
             {
                 for (int i = 0; i < 2; i++)
                 {
-                    if (ContainsLetter(str[i]))
+                    if (OnlyLetters(str[i]))
                         return false;
                 }
 
                 for (int i = 5; i < str.Length; i++)
                 {
-                    if (ContainsLetter(str[i]))
+                    if (OnlyLetters(str[i]))
                         return false;
                 }
 
@@ -310,26 +293,7 @@ namespace Biblioteca
         /// <returns></returns>
         public static bool Dni(ref string str)
         {
-            str = str.Replace(" ", "");
-
-            bool flag = true;
-
-            if (ContainsSpecialCharacter(str) || ContainsLetter(str))
-            {
-                Console.WriteLine("Ups! Tu dni solo debe estar compuesto por numeros");
-                flag = false;
-            }
-            else if (ContainsNumber(str) && str.Length != 8)
-            {
-                Console.WriteLine("Ups! Tu dni solo puede tener 8 digitos");
-                flag = false;
-            }
-
-            else if (flag)
-                Console.WriteLine("Dato Ingresado con Éxito");
-
-            Console.ReadLine();
-            return flag;
+            return OnlyNumbers(str) && str.Length == 8;
         }
         /// <summary>
         /// Valida que el numero ingresado sea correcto
@@ -338,13 +302,7 @@ namespace Biblioteca
         /// <returns></returns>
         public static bool PhoneNumber(ref double num)
         {
-            string str = num.ToString();
-
-            if (Validacion.PhoneNumber(ref str))
-                return true;
-
-            double.TryParse(str, out num);
-            return false;
+            return Validacion.PhoneNumber(num.ToString());
         }
 
         /// <summary>
@@ -352,28 +310,9 @@ namespace Biblioteca
         /// </summary>
         /// <param name="str">Cadena a ser validada.</param>
         /// <returns></returns>
-        public static bool PhoneNumber(ref string str)
+        public static bool PhoneNumber(string str)
         {
-            str = str.Replace(" ", "");
-
-            bool flag = true;
-
-            if (ContainsSpecialCharacter(str) || ContainsLetter(str))
-            {
-                Console.WriteLine("Ups! El ingreso debe estar compuesto por numeros");
-                flag = false;
-            }
-            else if (str.Length < 7 || str.Length > 10)
-            {
-                Console.WriteLine("Ups! El ingreso debe tener entre 7 y 10 digitos");
-                flag = false;
-            }
-
-            else if (flag)
-                Console.WriteLine("Dato Ingresado con Éxito");
-
-            Console.ReadLine();
-            return flag;
+            return OnlyNumbers(str) && str.Length > 6 && str.Length < 11;
         }
 
         /// <summary>
@@ -383,20 +322,12 @@ namespace Biblioteca
         /// <returns></returns>
         public static bool Email(string str)
         {
-            bool flag = false;
             var addr = new System.Net.Mail.MailAddress(str);
-
             if (addr.Address == str)
             {
-                Console.WriteLine("Dato Ingresado con Éxito");
-                flag = true;
+                return true;
             }
-
-            else if (!flag)
-                Console.WriteLine("Ups! El mail ingresado no puede ser usado");
-
-            Console.ReadLine();
-            return flag;
+            return false;
         }
 
         /// <summary>
@@ -463,10 +394,10 @@ namespace Biblioteca
         /// <returns></returns>
         public static bool OnlyNumbers(string str)
         {
-            if (!Validacion.ContainsLetter(str) && !Validacion.ContainsSpecialCharacter(str))
-                return true;
+            if (ContainsLetter(str) || ContainsSpecialCharacter(str))
+                return false;
 
-            return false;
+            return true;
         }
     }
 

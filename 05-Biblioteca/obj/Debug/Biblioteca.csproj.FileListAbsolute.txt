@@ -9,3 +9,8 @@ C:\Users\Aguss\Desktop\git\05-Biblioteca\obj\Debug\Biblioteca.dll
 C:\Users\Aguss\Desktop\git\05-Biblioteca\obj\Debug\Biblioteca.pdb
 C:\Users\Aguss\Desktop\git\05-Biblioteca\bin\Debug\Biblioteca.dll
 C:\Users\Aguss\Desktop\git\05-Biblioteca\bin\Debug\Biblioteca.pdb
+C:\Users\Aguss\Desktop\UTN\Progamacion y Laboratorio II\05-Biblioteca\obj\Debug\Biblioteca.csprojAssemblyReference.cache
+C:\Users\Aguss\Desktop\UTN\Progamacion y Laboratorio II\05-Biblioteca\obj\Debug\Biblioteca.dll
+C:\Users\Aguss\Desktop\UTN\Progamacion y Laboratorio II\05-Biblioteca\obj\Debug\Biblioteca.pdb
+C:\Users\Aguss\Desktop\UTN\Progamacion y Laboratorio II\05-Biblioteca\bin\Debug\Biblioteca.dll
+C:\Users\Aguss\Desktop\UTN\Progamacion y Laboratorio II\05-Biblioteca\bin\Debug\Biblioteca.pdb
