@@ -1,0 +1,6 @@
+C:\Users\Aguss\Desktop\UTN\Progamacion y Laboratorio II\03-Tps\TP-03\BaezNuñez.Leandro.2A.TP3\Excepciones\bin\Debug\Excepciones.dll
+C:\Users\Aguss\Desktop\UTN\Progamacion y Laboratorio II\03-Tps\TP-03\BaezNuñez.Leandro.2A.TP3\Excepciones\bin\Debug\Excepciones.pdb
+C:\Users\Aguss\Desktop\UTN\Progamacion y Laboratorio II\03-Tps\TP-03\BaezNuñez.Leandro.2A.TP3\Excepciones\obj\Debug\Excepciones.csprojAssemblyReference.cache
+C:\Users\Aguss\Desktop\UTN\Progamacion y Laboratorio II\03-Tps\TP-03\BaezNuñez.Leandro.2A.TP3\Excepciones\obj\Debug\Excepciones.csproj.CoreCompileInputs.cache
+C:\Users\Aguss\Desktop\UTN\Progamacion y Laboratorio II\03-Tps\TP-03\BaezNuñez.Leandro.2A.TP3\Excepciones\obj\Debug\Excepciones.dll
+C:\Users\Aguss\Desktop\UTN\Progamacion y Laboratorio II\03-Tps\TP-03\BaezNuñez.Leandro.2A.TP3\Excepciones\obj\Debug\Excepciones.pdb

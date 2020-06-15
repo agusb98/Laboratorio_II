@@ -1,0 +1,13 @@
+C:\Users\Aguss\Desktop\UTN\Progamacion y Laboratorio II\03-Tps\TP-03\BaezNuñez.Leandro.2A.TP3\Clases Instanciables\obj\Debug\Clases Instanciables.csproj.CoreCompileInputs.cache
+C:\Users\Aguss\Desktop\UTN\Progamacion y Laboratorio II\03-Tps\TP-03\BaezNuñez.Leandro.2A.TP3\Clases Instanciables\obj\Debug\Clases Instanciables.csprojAssemblyReference.cache
+C:\Users\Aguss\Desktop\UTN\Progamacion y Laboratorio II\03-Tps\TP-03\BaezNuñez.Leandro.2A.TP3\Clases Instanciables\bin\Debug\Clases Instanciables.dll
+C:\Users\Aguss\Desktop\UTN\Progamacion y Laboratorio II\03-Tps\TP-03\BaezNuñez.Leandro.2A.TP3\Clases Instanciables\bin\Debug\Clases Instanciables.pdb
+C:\Users\Aguss\Desktop\UTN\Progamacion y Laboratorio II\03-Tps\TP-03\BaezNuñez.Leandro.2A.TP3\Clases Instanciables\bin\Debug\Archivos.dll
+C:\Users\Aguss\Desktop\UTN\Progamacion y Laboratorio II\03-Tps\TP-03\BaezNuñez.Leandro.2A.TP3\Clases Instanciables\bin\Debug\Clases_Abstractas.dll
+C:\Users\Aguss\Desktop\UTN\Progamacion y Laboratorio II\03-Tps\TP-03\BaezNuñez.Leandro.2A.TP3\Clases Instanciables\bin\Debug\Excepciones.dll
+C:\Users\Aguss\Desktop\UTN\Progamacion y Laboratorio II\03-Tps\TP-03\BaezNuñez.Leandro.2A.TP3\Clases Instanciables\bin\Debug\Archivos.pdb
+C:\Users\Aguss\Desktop\UTN\Progamacion y Laboratorio II\03-Tps\TP-03\BaezNuñez.Leandro.2A.TP3\Clases Instanciables\bin\Debug\Clases_Abstractas.pdb
+C:\Users\Aguss\Desktop\UTN\Progamacion y Laboratorio II\03-Tps\TP-03\BaezNuñez.Leandro.2A.TP3\Clases Instanciables\bin\Debug\Excepciones.pdb
+C:\Users\Aguss\Desktop\UTN\Progamacion y Laboratorio II\03-Tps\TP-03\BaezNuñez.Leandro.2A.TP3\Clases Instanciables\obj\Debug\Clases Instanciables.csproj.CopyComplete
+C:\Users\Aguss\Desktop\UTN\Progamacion y Laboratorio II\03-Tps\TP-03\BaezNuñez.Leandro.2A.TP3\Clases Instanciables\obj\Debug\Clases Instanciables.dll
+C:\Users\Aguss\Desktop\UTN\Progamacion y Laboratorio II\03-Tps\TP-03\BaezNuñez.Leandro.2A.TP3\Clases Instanciables\obj\Debug\Clases Instanciables.pdb
