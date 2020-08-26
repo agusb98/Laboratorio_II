@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Entidades.Banco">
+    <Position X="0.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAQAAACAgAAAgAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Banco.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Entidades.BancoMunicipal">
+    <Position X="5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAgAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BancoMunicipal.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Entidades.BancoNacional">
+    <Position X="5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAQAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BancoNacional.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Entidades.BancoProvincial">
+    <Position X="0.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAQAAAAAAAAIAAAACAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BancoProvincial.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Entidades.Deposito" Collapsed="true">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAAAAQAAAAAAAAAACAAACAAAAAAAAAAA=</HashCode>
+      <FileName>Deposito.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Entidades.Producto" Collapsed="true">
+    <Position X="9.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAACAAAAAAAAAAAAAAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>Producto.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Entidades.Venta" Collapsed="true">
+    <Position X="7.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAQBAAAEAAAAAAAAAAAAAAAEBCAAAAAAAAAA=</HashCode>
+      <FileName>Venta.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
